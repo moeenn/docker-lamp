@@ -14,3 +14,9 @@ $ docker-compose up
 ```bash
 $ docker-compose down
 ```
+
+### Database Credentials
+* Username: ```devuser```
+* Password: ```devpass```
+* Database Name: ```test_db```
+* Host: ```db```
