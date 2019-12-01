@@ -20,3 +20,30 @@ $ docker-compose down
 * Password: ```devpass```
 * Database Name: ```test_db```
 * Host: ```db```
+
+### Connecting to the Database
+#### PDO
+```php
+// cretentials
+$host = 'db';
+$user = 'devuser';
+$pass = 'devpass';
+$db = 'test_db';
+
+// Data Source Name (DSN)
+$dsn = "mysql:host={$host};dbname={$db}";
+
+// PDO instance i.e. connection
+$conn = new PDO($dsn, $user, $pass);
+```
+
+#### MySQLi
+```php
+$host = 'db';
+$user = 'devuser';
+$pass = 'devpass';
+$db = 'test_db';
+
+// establish connection
+$conn = mysqli_connect($host, $user, $pass, $db);
+```
