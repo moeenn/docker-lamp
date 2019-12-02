@@ -24,7 +24,7 @@ $ docker-compose down
 ### Connecting to the Database
 #### PDO
 ```php
-// cretentials
+// credentials
 $host = 'db';
 $user = 'devuser';
 $pass = 'devpass';
