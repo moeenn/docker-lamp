@@ -1,8 +1,9 @@
 # docker-lamp
 Configuration for Setting Up a complete Linux, Apache, MySQL & PHP (i.e. LAMP) stack using Docker Compose.
-* php folder is the Document Root for the Server
+* root is the Document Root for the Server
 * Apache Runs on Port 8000
 * MySQL Runs on Port 6033
+* MySQL Manager Adminer runs on Port 8080
 * Database Plugins i.e. mysqli, pdo are already installed
 
 ### Starting the Server
