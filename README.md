@@ -5,6 +5,12 @@ Configuration for Setting Up a complete Linux, Apache, MySQL & PHP (i.e. LAMP) s
 * MySQL Runs on Port 6033
 * MySQL Manager Adminer runs on Port 8080
 * Database Plugins i.e. mysqli, pdo are already installed
+* Composer Package Manager is already Installed
+
+### Building the Image
+```bash
+$ docker-compose up --build
+```
 
 ### Starting the Server
 ```bash
