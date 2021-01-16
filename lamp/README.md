@@ -3,9 +3,8 @@ Configuration for Setting Up a complete Linux, Apache, MySQL & PHP (i.e. LAMP) s
 * root is the Document Root for the Server
 * Apache Runs on Port 8000
 * MySQL Runs on Port 6033
-* MySQL Manager Adminer runs on Port 8080
+* PHPMyAdmin runs on Port 8080. Use credentials as mentioned below
 * Database Plugins i.e. mysqli, pdo are already installed
-* Composer Package Manager is already Installed
 
 ### Building the Image
 ```bash
