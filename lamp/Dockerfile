@@ -5,4 +5,5 @@ RUN apt-get upgrade -y
 RUN docker-php-ext-install pdo pdo_mysql mysqli
 RUN apt-get autoremove -y
 RUN a2enmod rewrite
+RUN chmod -R a+rw ./*
 EXPOSE 80
