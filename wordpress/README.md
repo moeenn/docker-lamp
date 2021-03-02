@@ -1,8 +1,8 @@
 # WordPress
 Easy deployment container for WordPress.
 
-# Tip
-Dont forget to add the following line to your wp-config.php
+## Tip
+Dont forget to add the following line to your ```wp-config.php```
 
 ```php
 /* Make WordPress install plugins directly */
