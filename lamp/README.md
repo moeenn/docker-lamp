@@ -25,13 +25,13 @@ $ docker-compose down
 * Username: ```devuser```
 * Password: ```devpass```
 * Database Name: ```test_db```
-* Host: ```db```
+* Host: ```localhost:6033```
 
 ### Connecting to the Database
 #### PDO
 ```php
 // credentials
-$host = 'db';
+$host = 'localhost:6033';
 $user = 'devuser';
 $pass = 'devpass';
 $db = 'test_db';
@@ -45,7 +45,7 @@ $conn = new PDO($dsn, $user, $pass);
 
 #### MySQLi
 ```php
-$host = 'db';
+$host = 'localhost:6033';
 $user = 'devuser';
 $pass = 'devpass';
 $db = 'test_db';
