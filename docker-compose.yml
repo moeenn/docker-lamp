@@ -10,6 +10,7 @@ services:
       ports:
             - 8080:80
       environment:
+            - UPLOAD_LIMIT=52428800
             - PMA_ARBITRARY=1
 
     db:
