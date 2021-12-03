@@ -51,3 +51,18 @@ $db = 'example';
 // establish connection
 $conn = mysqli_connect($host, $user, $pass, $db);
 ```
+
+### Importing SQL directly inside MySQL container
+```bash
+$ sudo docker exec -i <container name> mysql -uroot -proot <database name> < path/to/db.sql
+```
+
+*Note*:
+- We must first start the containers using ```docker-compose```, then we will be able to see the details of running containers (including container name) using the following command:
+
+```bash
+$ sudo docker ps
+```
+
+- The credentials for mysql user are assumed to be ```root:root```
+- The lack of space in the ```-u``` and ```-p``` flag is intentional
